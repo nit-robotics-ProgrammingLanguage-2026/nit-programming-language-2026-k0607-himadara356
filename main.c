@@ -30,14 +30,14 @@ else if(n>50&&n<=100)
     {
        j=50;
     for(i=0;i<=50;i++)
-        if(i=j)
+        if(i==j)
         {
-           j=j-1;
+           j = j - 1;
         }
         else
        {
-           g=g+1;
-           j=j-1;
+           g = g + 1;
+           j = j - 1;
        }
     }
 else if(n>100)
